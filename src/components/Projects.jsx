@@ -6,8 +6,7 @@ const systemsProjects = [
     desc: "A cross-platform barangay services app with an AI sentiment analysis — I led the team and built both the front-end and back-end.",
     tech: [
       { label: <><i className="fa-brands fa-js mr-1" style={{color:"#F7DF1E"}}></i>JavaScript</>, cls: "ts-javascript" },
-      { label: <><i className="fa-brands fa-react mr-1" style={{color:"#61DAFB"}}></i>React.js</>, cls: "ts-react" },
-      { label: <><i className="fa-brands fa-react mr-1" style={{color:"#61DAFB"}}></i>React Native</>, cls: "ts-react" },
+      { label: <><i className="fa-brands fa-react mr-1" style={{color:"#61DAFB"}}></i>React</>, cls: "ts-react" },
       { label: <><i className="fa-brands fa-square-js mr-1" style={{color:"#3178C6"}}></i>TypeScript</>, cls: "ts-typescript" },
       { label: <><i className="fa-solid fa-fire mr-1" style={{color:"#FFCA28"}}></i>Firebase</>, cls: "ts-firebase" },
       { label: <><i className="fa-solid fa-wind mr-1" style={{color:"#38BDF8"}}></i>Tailwind</>, cls: "ts-tailwind" },

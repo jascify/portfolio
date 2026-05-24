@@ -16,8 +16,8 @@ const certs = [
   },
   {
     img: "/assets/seminar.jpg", alt: "Google I/O",
-    title: "Google I/O Extended", issuer: "GDG Manila — July 2024",
-    desc: "Web & mobile tech, cloud tools, and AI development practices. Accenture Uptown BGC.",
+    title: "Google I/O Extended", issuer: "Google Developer Groups (GDG) Manila | July 2024",
+    desc: "Attended tech seminar covering web & mobile technologies, cloud tools, and AI development practices at Accenture Uptown BGC, Taguig.",
   },
 ];
 
