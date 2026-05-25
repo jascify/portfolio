@@ -44,13 +44,6 @@ const skillCategories = [
     ],
   },
   {
-    label: "UI/UX Design",
-    skills: [
-      { name: "Figma",      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
-      { name: "Photoshop",  logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-original.svg" },
-    ],
-  },
-  {
     label: "SDLC, QA & Tools",
     skills: [
       { name: "Git & GitHub",           logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },

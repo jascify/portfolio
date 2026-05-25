@@ -40,14 +40,25 @@ export default function Navbar({ theme, toggleTheme }) {
           : "bg-[rgba(13,26,15,0.88)] border-[rgba(76,175,80,0.22)]"
         }`}
     >
-      <div className="grid grid-cols-[1fr_auto_1fr] items-center w-full">
+      <div className="flex md:grid md:grid-cols-[1fr_auto_1fr] items-center w-full gap-4 md:gap-0">
         {/* Logo */}
-        <a href="#home" className="flex flex-col gap-[2px]">
-          <span className={`text-[15px] font-bold ${theme === "light" ? "text-[#0d1f0e]" : "text-[#e8f5e9]"}`}>
-            Jasmine Aguilar
-          </span>
-          <span className="text-[11px] text-[#6abf69] tracking-[0.5px]">Web Developer</span>
-        </a>
+        <div className="flex md:block items-center gap-4 md:gap-0">
+          {/* Mobile Theme Toggle */}
+          <button onClick={toggleTheme}
+            className={`md:hidden flex items-center justify-center w-8 h-8 rounded-[10px] border text-[13px] font-medium transition-all
+              ${theme === "light"
+                ? "bg-[#e8f5e9] border-[rgba(46,125,50,0.2)] text-[#3d5c3e]"
+                : "bg-[#162018] border-[rgba(76,175,80,0.22)] text-[#8faa90]"
+              }`}>
+            <i className={`text-[#6abf69] text-[13px] ${theme === "light" ? "fa-solid fa-sun" : "fa-solid fa-moon"}`}></i>
+          </button>
+          <a href="#home" className="flex flex-col gap-[2px] whitespace-nowrap">
+            <span className={`text-[15px] font-bold ${theme === "light" ? "text-[#0d1f0e]" : "text-[#e8f5e9]"}`}>
+              Jasmine Aguilar
+            </span>
+            <span className="hidden md:block text-[11px] text-[#6abf69] tracking-[0.5px]">IT Student</span>
+          </a>
+        </div>
 
         {/* Desktop Nav Links */}
         <nav className="hidden md:block">
@@ -77,8 +88,8 @@ export default function Navbar({ theme, toggleTheme }) {
           </ul>
         </nav>
 
-        <div className="flex items-center gap-[10px] justify-end">
-          <div className="hidden md:flex gap-2">
+        <div className="hidden md:flex items-center gap-[10px] justify-end">
+          <div className="flex gap-2">
             {[
               { href: "https://linkedin.com/in/jasmine-miel-aguilar", icon: "fa-brands fa-linkedin" },
               { href: "https://github.com/jascify", icon: "fa-brands fa-github" },
@@ -104,14 +115,14 @@ export default function Navbar({ theme, toggleTheme }) {
             <i className={`text-[#6abf69] text-[13px] ${theme === "light" ? "fa-solid fa-sun" : "fa-solid fa-moon"}`}></i>
             <span className="text-[12px] tracking-[0.3px]">{theme === "light" ? "Light" : "Dark"}</span>
           </button>
-
-          {/* Mobile Menu Toggle */}
-          <button onClick={() => setMenuOpen(!menuOpen)}
-            className={`md:hidden text-[20px] px-2 py-[6px] bg-transparent border-none cursor-pointer
-              ${theme === "light" ? "text-[#0d1f0e]" : "text-[#e8f5e9]"}`}>
-            <i className={`fa-solid ${menuOpen ? "fa-xmark" : "fa-bars"}`}></i>
-          </button>
         </div>
+
+        {/* Mobile Menu Toggle */}
+        <button onClick={() => setMenuOpen(!menuOpen)}
+          className={`md:hidden text-[20px] px-2 py-[6px] bg-transparent border-none cursor-pointer ml-auto
+            ${theme === "light" ? "text-[#0d1f0e]" : "text-[#e8f5e9]"}`}>
+          <i className={`fa-solid ${menuOpen ? "fa-xmark" : "fa-bars"}`}></i>
+        </button>
       </div>
 
       {/* Mobile Dropdown */}
