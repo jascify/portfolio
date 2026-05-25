@@ -31,20 +31,23 @@ const systemsProjects = [
   },
 ];
 
-const uiProjects = [
-  { title: "LinguaLink", desc: "A mobile application concept that gamifies language learning, enabling users to track their progress and unlock educational modules using earned energy points.", embedSrc: "https://embed.figma.com/design/ZoLeqXUzhuVmUEAv6bTTqb/LinguaLink?node-id=0-1&embed-host=share", figmaHref: "https://www.figma.com/design/ZoLeqXUzhuVmUEAv6bTTqb/LinguaLink?node-id=0-1" },
-  { title: "Sentimenta", desc: "UI/UX design for a mobile diary app with sentiment analysis .", embedSrc: "https://embed.figma.com/design/bTiwEPWxvAyyNxn0luMMUX/Untitled?node-id=0-1&embed-host=share", figmaHref: "https://www.figma.com/design/bTiwEPWxvAyyNxn0luMMUX/Untitled" },
-  { title: "3S+ Sense", desc: "The UI/UX design for the 3S+ Sense barangay services web, focusing on accessibility and ease of use.", embedSrc: "https://embed.figma.com/design/asznjkRnIwxhlZos7Kr7lv/3S--Barangay?node-id=0-1&embed-host=share", figmaHref: "https://www.figma.com/design/asznjkRnIwxhlZos7Kr7lv/3S--Barangay?node-id=0-1" },
-  { title: "ValCommuters", desc: "A mobile app design for Valenzuela City commuters, aimed at providing real-time transport information and a better commuting experience.", embedSrc: "https://embed.figma.com/design/4Wn9kyqFRo8xuSUUVxvtLG/Val-Commuters?node-id=12-539&embed-host=share", figmaHref: "https://www.figma.com/design/4Wn9kyqFRo8xuSUUVxvtLG/Val-Commuters?node-id=12-539" },
-];
-
 const graphicsProjects = [
+  { title: "Vet Pet Record", img: "assets/vet-record.jpg" },
+  { title: "Vet Kit", img: "assets/vet-kit.png" },
+  { title: "Business Card", img: "assets/vet-card.jpg" },
   { title: "Book Cover", img: "assets/book.png" },
   { title: "Digital Typography", img: "assets/digitaltypography1.png" },
   { title: "Digital Typography", img: "assets/digitaltypography2.jpg" },
   { title: "Punk", img: "assets/punk1.png" },
   { title: "Punk", img: "assets/punk2.png" },
   { title: "Poster", img: "assets/poster.jpg" },
+];
+
+const uiProjects = [
+  { title: "LinguaLink", desc: "A mobile application concept that gamifies language learning, enabling users to track their progress and unlock educational modules using earned energy points.", embedSrc: "https://embed.figma.com/design/ZoLeqXUzhuVmUEAv6bTTqb/LinguaLink?node-id=0-1&embed-host=share", figmaHref: "https://www.figma.com/design/ZoLeqXUzhuVmUEAv6bTTqb/LinguaLink?node-id=0-1" },
+  { title: "Sentimenta", desc: "UI/UX design for a mobile diary app with sentiment analysis .", embedSrc: "https://embed.figma.com/design/bTiwEPWxvAyyNxn0luMMUX/Untitled?node-id=0-1&embed-host=share", figmaHref: "https://www.figma.com/design/bTiwEPWxvAyyNxn0luMMUX/Untitled" },
+  { title: "3S+ Sense", desc: "The UI/UX design for the 3S+ Sense barangay services web, focusing on accessibility and ease of use.", embedSrc: "https://embed.figma.com/design/asznjkRnIwxhlZos7Kr7lv/3S--Barangay?node-id=0-1&embed-host=share", figmaHref: "https://www.figma.com/design/asznjkRnIwxhlZos7Kr7lv/3S--Barangay?node-id=0-1" },
+  { title: "ValCommuters", desc: "A mobile app design for Valenzuela City commuters, aimed at providing real-time transport information and a better commuting experience.", embedSrc: "https://embed.figma.com/design/4Wn9kyqFRo8xuSUUVxvtLG/Val-Commuters?node-id=12-539&embed-host=share", figmaHref: "https://www.figma.com/design/4Wn9kyqFRo8xuSUUVxvtLG/Val-Commuters?node-id=12-539" },
 ];
 
 const daProjects = [
@@ -82,9 +85,9 @@ export default function Projects({ theme, openLightbox }) {
   const borderPrimary = theme === "light" ? "border-[rgba(46,125,50,0.2)]" : "border-[rgba(76,175,80,0.22)]";
 
   const tabs = [
-    { id: "systems", icon: "fa-solid fa-code", label: "systems.json" },
-    { id: "ui", icon: "fa-solid fa-palette", label: "interface.fig" },
-    { id: "graphics", icon: "fa-solid fa-image", label: "assets.psd" },
+    { id: "systems", icon: "fa-solid fa-code", label: "Systems" },
+    { id: "graphics", icon: "fa-solid fa-image", label: "Graphic Design" },
+    { id: "ui", icon: "fa-solid fa-palette", label: "Interfaces" },
   ];
 
   return (
@@ -102,7 +105,7 @@ export default function Projects({ theme, openLightbox }) {
               className={`px-5 py-[10px] border border-b-0 font-mono text-[0.85rem] rounded-t-[10px] flex items-center gap-2 cursor-pointer transition-all
                 ${activeTab === id
                   ? `${bgRaised} text-[#6abf69] ${borderPrimary} font-bold border-t-2 border-t-[#4caf50] -mb-[1px] z-10 relative`
-                  : `${bgCard} text-[#4a5e4b] ${border}`
+                  : `${bgCard} ${theme === "light" ? "text-[#4a5e4b]" : "text-[#8faa90]"} ${border} hover:text-[#6abf69] hover:bg-[rgba(76,175,80,0.08)]`
                 }`}>
               <i className={`${icon} text-[0.9rem]`}></i> {label}
             </button>
