@@ -279,11 +279,12 @@ const uiProjects = [
       "https://www.figma.com/design/ZoLeqXUzhuVmUEAv6bTTqb/LinguaLink?node-id=0-1",
   },
   {
-    title: "Sentimenta",
-    desc: "UI/UX design for a mobile diary app with sentiment analysis .",
+    title: "Bask Cafe",
+    desc: "A responsive informational web platform designed to elevate a local café’s online presence through a brand-aligned layout, an interactive product menu, and an engaging media gallery.",
     embedSrc:
-      "https://embed.figma.com/design/bTiwEPWxvAyyNxn0luMMUX/Untitled?node-id=0-1&embed-host=share",
-    figmaHref: "https://www.figma.com/design/bTiwEPWxvAyyNxn0luMMUX/Untitled",
+      "https://embed.figma.com/design/cTz6mW0h8Xa9GIJJdnGndN/Bask-Cafe-Mockup?node-id=29-21&embed-host=share",
+    figmaHref:
+      "https://www.figma.com/design/cTz6mW0h8Xa9GIJJdnGndN/Bask-Cafe-Mockup?node-id=29-21&t=BGdVq4J1bquADRez-1",
   },
   {
     title: "3S+ Sense",
@@ -292,6 +293,21 @@ const uiProjects = [
       "https://embed.figma.com/design/asznjkRnIwxhlZos7Kr7lv/3S--Barangay?node-id=0-1&embed-host=share",
     figmaHref:
       "https://www.figma.com/design/asznjkRnIwxhlZos7Kr7lv/3S--Barangay?node-id=0-1",
+  },
+  {
+    title: "Survey System",
+    desc: "A web-based survey management system with a customizable form builder that allows users to create surveys, share access through QR codes, and track responses with real-time statistics and analytics.",
+    embedSrc:
+      "https://embed.figma.com/design/0gyPsA5Alb17gB9R4MrSFq/Survey-System?node-id=0-1&embed-host=share",
+    figmaHref:
+      "https://www.figma.com/design/0gyPsA5Alb17gB9R4MrSFq/Survey-System?node-id=0-1&t=5kWJsIyQ9agsgg2s-1",
+  },
+  {
+    title: "Sentimenta",
+    desc: "UI/UX design for a mobile diary app with sentiment analysis.",
+    embedSrc:
+      "https://embed.figma.com/design/bTiwEPWxvAyyNxn0luMMUX/Untitled?node-id=0-1&embed-host=share",
+    figmaHref: "https://www.figma.com/design/bTiwEPWxvAyyNxn0luMMUX/Untitled",
   },
   {
     title: "ValCommuters",

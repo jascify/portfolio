@@ -62,10 +62,13 @@ export default function About({ theme }) {
               after:content-[''] after:absolute after:left-0 after:-bottom-[10px] after:w-9 after:h-0.5 after:bg-[#4caf50]`}>
               Education
             </h3>
-            <div className="timeline">
-              {education.map((item) => (
-                <div key={item.years} className={`mb-8 pl-5 border-l-2 border-[#4caf50] relative
-                  before:content-[''] before:absolute before:-left-[5px] before:top-[7px] before:w-2 before:h-2 before:rounded-full before:bg-[#4caf50]`}>
+            <div className="timeline relative">
+              {education.map((item, idx) => (
+                <div key={item.years} className={`pl-5 relative
+                  ${idx !== education.length - 1 ? "pb-8" : ""}`}>
+                  <div className={`absolute left-0 top-0 w-0.5 h-full bg-[#4caf50]
+                    ${idx === education.length - 1 ? "h-2" : ""}`}></div>
+                  <div className={`absolute -left-[5px] top-[7px] w-2 h-2 rounded-full bg-[#4caf50]`}></div>
                   <span className={`text-[0.8rem] font-bold tracking-[0.5px] ${theme === "light" ? "text-[#7a9e7b]" : "text-[#4a5e4b]"}`}>{item.years}</span>
                   <h4 className={`text-[1rem] my-[5px] ${textDark}`}>{item.school}</h4>
                   {item.honors.map((h) => (
