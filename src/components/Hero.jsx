@@ -45,7 +45,7 @@ export default function Hero({ theme }) {
               <div className="mb-[18px]">
                 <label className="text-[0.65rem] text-[#6abf69] uppercase tracking-[1.5px] font-bold block mb-1">Role</label>
                 <h2 className={`text-[1rem] font-medium ${textDark}`}>
-                  Web & Mobile Developer  <span className="text-[#6abf69] mx-1">/</span> Data Analyst <span className="text-[#6abf69] mx-1">/</span> QA
+                  Web & Mobile Developer  <span className="text-[#6abf69] mx-1">/</span> Data Analyst <span className="text-[#6abf69] mx-1">/</span> QA Tester
                 </h2>
               </div>
 
