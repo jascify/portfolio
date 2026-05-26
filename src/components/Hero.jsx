@@ -27,7 +27,7 @@ export default function Hero({ theme }) {
           </div>
 
           {/* Card Body */}
-          <div className="flex p-9 gap-10 items-center flex-wrap md:flex-nowrap">
+          <div className="flex p-9 gap-10 items-center justify-center flex-wrap md:flex-nowrap md:justify-start">
             <div className="flex-shrink-0">
               <img src="/assets/hero-pic.jpg" alt="Jasmine Miel Aguilar"
                 className={`w-[200px] h-[250px] object-cover rounded-[12px] border-2 shadow-[8px_8px_0_rgba(76,175,80,0.1)]
@@ -54,13 +54,13 @@ export default function Hero({ theme }) {
                 ${theme === "light" ? "border-[rgba(46,125,50,0.12)]" : "border-[rgba(76,175,80,0.1)]"}`}>
                 <div>
                   <label className="text-[0.65rem] text-[#6abf69] uppercase tracking-[1.5px] font-bold block mb-1">Location</label>
-                  <p className={`text-[0.9rem] font-medium flex items-center gap-[6px] ${textDark}`}>
+                  <p className={`text-[0.75rem] md:text-[0.9rem] font-medium flex items-center gap-[6px] ${textDark}`}>
                     <i className="fa-solid fa-location-dot text-[#4a5e4b] text-[0.8rem]"></i> Valenzuela City, PH
                   </p>
                 </div>
                 <div>
                   <label className="text-[0.65rem] text-[#6abf69] uppercase tracking-[1.5px] font-bold block mb-1">Availability</label>
-                  <p className="text-[0.9rem] font-medium flex items-center gap-[6px] text-[#6abf69]">
+                  <p className="text-[0.75rem] md:text-[0.9rem] font-medium flex items-center gap-[6px] text-[#6abf69]">
                     <i className="fa-solid fa-briefcase text-[0.8rem]"></i> Open for Internship
                   </p>
                 </div>
@@ -78,15 +78,15 @@ export default function Hero({ theme }) {
           </div>
 
           {/* Card Footer */}
-          <div className={`${footer} px-9 py-5 border-t flex gap-4 flex-wrap
+          <div className={`${footer} px-4 md:px-9 py-3 md:py-5 border-t flex gap-2 md:gap-4
             ${theme === "light" ? "border-[rgba(46,125,50,0.12)]" : "border-[rgba(76,175,80,0.1)]"}`}>
             <a href="#projects"
-              className="px-7 py-[13px] text-[0.95rem] font-medium rounded-[12px] text-white transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(76,175,80,0.4)]"
+              className="px-4 md:px-7 py-2 md:py-[13px] text-[0.8rem] md:text-[0.95rem] font-medium rounded-[12px] text-white transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(76,175,80,0.4)] flex-1 text-center"
               style={{ background: "linear-gradient(135deg, #4caf50, #388e3c)", boxShadow: "0 4px 20px rgba(76,175,80,0.25)" }}>
               View Projects
             </a>
             <a href="/resume-aguilar.pdf" download
-              className={`px-7 py-[13px] text-[0.95rem] font-medium rounded-[12px] border transition-all hover:-translate-y-0.5
+              className={`px-4 md:px-7 py-2 md:py-[13px] text-[0.8rem] md:text-[0.95rem] font-medium rounded-[12px] border transition-all hover:-translate-y-0.5 flex-1 text-center
                 text-[#6abf69] bg-transparent border-[rgba(76,175,80,0.22)] hover:bg-[rgba(76,175,80,0.1)] hover:border-[#6abf69]`}>
               Download Resume
             </a>
