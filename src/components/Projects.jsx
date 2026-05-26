@@ -332,6 +332,30 @@ const daProjects = [
         label: (
           <>
             <i
+              className="fa-brands fa-python mr-1"
+              style={{ color: "#013243" }}
+            ></i>
+            NumPy
+          </>
+        ),
+        cls: "ts-numpy",
+      },
+      {
+        label: (
+          <>
+            <i
+              className="fa-solid fa-chart-line mr-1"
+              style={{ color: "#1f77b4" }}
+            ></i>
+            Matplotlib
+          </>
+        ),
+        cls: "ts-matplotlib",
+      },
+      {
+        label: (
+          <>
+            <i
               className="fa-solid fa-book-open mr-1"
               style={{ color: "#F37626" }}
             ></i>
@@ -378,6 +402,42 @@ const daProjects = [
           </>
         ),
         cls: "ts-python",
+      },
+      {
+        label: (
+          <>
+            <i
+              className="fa-brands fa-python mr-1"
+              style={{ color: "#013243" }}
+            ></i>
+            NumPy
+          </>
+        ),
+        cls: "ts-numpy",
+      },
+      {
+        label: (
+          <>
+            <i
+              className="fa-solid fa-chart-line mr-1"
+              style={{ color: "#1f77b4" }}
+            ></i>
+            Matplotlib
+          </>
+        ),
+        cls: "ts-matplotlib",
+      },
+      {
+        label: (
+          <>
+            <i
+              className="fa-brands fa-python mr-1"
+              style={{ color: "#4C72B0" }}
+            ></i>
+            Seaborn
+          </>
+        ),
+        cls: "ts-seaborn",
       },
       {
         label: (
