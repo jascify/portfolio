@@ -92,7 +92,7 @@ const systemsProjects = [
   {
     title: "Quiz-IT",
     role: "Full Stack Developer",
-    desc: "An interactive web-based quiz platform designed for community-driven learning and real-time evaluation. It allows users to easily create and share custom quizzes for other users to take, while instantly processing submissions to update dynamic leaderboards and deliver detailed score analytics.",
+    desc: "An interactive, web-based quiz platform for community-driven learning. Users can create, share, and take custom quizzes with real-time scoring, dynamic leaderboards, and detailed performance analytics",
     tech: [
       {
         label: (
@@ -149,7 +149,7 @@ const systemsProjects = [
   {
     title: "Bask Cafe Website",
     role: "Frontend Developer",
-    desc: "A responsive informational website built to establish a polished online presence for a local café. It translates the brand's warm visual identity into a clean digital layout featuring an interactive product menu, a media gallery, and a user-friendly reservation interface.",
+    desc: "A responsive informational web platform designed to elevate a local café’s online presence using a brand-aligned layout, an interactive product menu, and an engaging media gallery.",
     tech: [
       {
         label: (
@@ -206,7 +206,7 @@ const systemsProjects = [
   {
     title: "WinForms OOP",
     role: "Developer",
-    desc: "An Object-Oriented Programming Windows Forms project built in C# showcasing core OOP concepts such as inheritance, encapsulation, and polymorphism. Features event-driven programming and a collection of mini-app modules that demonstrate practical desktop application development.",
+    desc: "An Object-Oriented Programming Windows Forms project built in C# showcasing core OOP concepts such as inheritance, encapsulation, and polymorphism.",
     tech: [
       {
         label: (
@@ -309,12 +309,10 @@ const daProjects = [
     img: "/assets/netflix_dashboard.png",
     desc: (
       <>
-        Transformed a raw dataset of{" "}
-        <strong className="text-[#6abf69]">8,000+</strong> Netflix movies and TV
-        shows into actionable insights. Used Python (Pandas & NumPy) for
-        advanced data cleaning, automated field standardization, and content age
-        categorization. Built a minimalist, interactive Power BI dashboard to
-        uncover distribution patterns, regional insights, and release trends.
+        Analyzed a dataset of <strong className="text-[#6abf69]">8,000+</strong>{" "}
+        Netflix titles using Python (Pandas/NumPy) for advanced cleaning and
+        categorization. Built an interactive Power BI dashboard to visualize
+        distribution patterns, regional insights, and release trends.
       </>
     ),
     tech: [
@@ -362,13 +360,10 @@ const daProjects = [
     img: "/assets/amazon_dashboard.png",
     desc: (
       <>
-        Processed and evaluated a historical dataset of{" "}
-        <strong className="text-[#6abf69]">550</strong> bestselling Amazon
-        titles to uncover long-term pricing and genre patterns. Using Pandas and
-        NumPy for data structuring, Matplotlib and Seaborn for exploratory
-        statistical charts, and Power BI for the final interactive presentation,
-        this project showcases a complete end-to-end analytics workflow from raw
-        dataset to business insights.
+        Processed and visualized <strong className="text-[#6abf69]">550</strong>{" "}
+        bestselling Amazon books, utilizing Python for advanced data cleaning
+        and statistical plotting, and Power BI to build an interactive analytics
+        dashboard.
       </>
     ),
     tech: [

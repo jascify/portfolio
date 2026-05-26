@@ -30,8 +30,6 @@ const skillCategories = [
       { name: "SQLite",     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" },
       { name: "NoSQL",      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
       { name: "Firebase",   logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-original.svg" },
-      { name: "Supabase",   logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg" },
-      { name: "Convex",     logo: "https://cdn.simpleicons.org/convex/ee342f" },
     ],
   },
   {
@@ -56,7 +54,7 @@ const skillCategories = [
   {
     label: "Development, Tools & QA",
     skills: [
-      { name: "Agile (Scrum & Kanban)", icon: "fa-solid fa-arrows-spin" },
+      { name: "Agile Kanban", icon: "fa-solid fa-arrows-spin" },
       { name: "Jira",                   logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" },
       { name: "Figma",                  logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
       { name: "Test Case Creation",     icon: "fa-solid fa-list-check" },
