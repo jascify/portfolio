@@ -355,7 +355,7 @@ const daProjects = [
         cls: "ts-powerbi",
       },
     ],
-    github: "https://github.com/yourname/your-repo",
+    github: "https://github.com/jascify/Netflix-Data-Analysis",
   },
   {
     title: "Amazon Data Analysis",
@@ -409,7 +409,7 @@ const daProjects = [
         cls: "ts-powerbi",
       },
     ],
-    github: "https://github.com/yourname/your-repo",
+    github: "https://github.com/jascify/Amazon-Books-Data-Analysis",
   },
 ];
 
