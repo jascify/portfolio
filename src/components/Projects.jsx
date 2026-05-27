@@ -61,18 +61,6 @@ const systemsProjects = [
               className="fa-solid fa-wind mr-1"
               style={{ color: "#38BDF8" }}
             ></i>
-            Tailwind
-          </>
-        ),
-        cls: "ts-tailwind",
-      },
-      {
-        label: (
-          <>
-            <i
-              className="fa-solid fa-wind mr-1"
-              style={{ color: "#38BDF8" }}
-            ></i>
             NativeWind
           </>
         ),
@@ -80,6 +68,11 @@ const systemsProjects = [
       },
     ],
     links: [
+      {
+        href: "https://github.com/CeeeeeN/3Sense",
+        icon: "fa-brands fa-github",
+        label: "Code",
+      },
       {
         href: "https://www.3s-sense.site/",
         icon: "fa-solid fa-link",

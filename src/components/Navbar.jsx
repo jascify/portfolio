@@ -133,15 +133,21 @@ export default function Navbar({ theme, toggleTheme }) {
             : "bg-[rgba(13,26,15,0.88)] border-[rgba(76,175,80,0.22)]"
           }`}>
           <ul className="flex flex-col gap-1">
-            {navLinks.map(({ label, href }) => (
-              <li key={label} className="w-full text-center">
-                <a href={href} onClick={closeMenu}
-                  className={`block py-[10px] transition-colors hover:bg-[rgba(76,175,80,0.1)]
-                    ${theme === "light" ? "text-[#3d5c3e]" : "text-[#8faa90]"}`}>
-                  {label}
-                </a>
-              </li>
-            ))}
+            {navLinks.map(({ label, href }) => {
+              const id = href.replace("#", "");
+              const isActive = activeSection === id;
+              return (
+                <li key={label} className="w-full text-center">
+                  <a href={href} onClick={closeMenu}
+                    className={`block py-[10px] transition-colors hover:bg-[rgba(76,175,80,0.1)]
+                      ${isActive
+                        ? "text-[#6abf69]"
+                        : theme === "light" ? "text-[#3d5c3e]" : "text-[#8faa90]"}`}>
+                    {label}
+                  </a>
+                </li>
+              );
+            })}
           </ul>
         </nav>
       )}
