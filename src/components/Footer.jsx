@@ -22,7 +22,7 @@ export default function Footer({ theme }) {
           {/* Logo */}
           <div>
             <a href="#home" className={`text-[1.1rem] font-bold block mb-1 ${textDark}`}>Jasmine Aguilar</a>
-            <span className="text-[#6abf69] text-[0.75rem] block mb-[10px] tracking-[0.5px]">Web Developer</span>
+            <span className="text-[#6abf69] text-[0.75rem] block mb-[10px] tracking-[0.5px]">IT Student</span>
             <p className={`text-[0.85rem] leading-[1.5] ${textLight}`}>Always onwards — progress and creativity.</p>
           </div>
 
@@ -59,7 +59,7 @@ export default function Footer({ theme }) {
 
         <div className="flex items-center justify-center py-[18px]">
           <p className={`text-[0.8rem] ${textLight}`}>
-            © 2025 <span className="text-[#6abf69]">Jasmine Miel Aguilar</span>. All rights reserved.
+            © 2026 <span className="text-[#6abf69]">Jasmine Miel Aguilar</span>. All rights reserved.
           </p>
         </div>
       </div>
