@@ -251,15 +251,15 @@ const systemsProjects = [
 ];
 
 const graphicsProjects = [
-  { title: "Vet Pet Record", img: "assets/vet-record.jpg" },
-  { title: "Vet Kit", img: "assets/vet-kit.png" },
-  { title: "Business Card", img: "assets/vet-card.jpg" },
-  { title: "Book Cover", img: "assets/book.png" },
-  { title: "Digital Typography", img: "assets/digitaltypography1.png" },
-  { title: "Digital Typography", img: "assets/digitaltypography2.jpg" },
-  { title: "Punk", img: "assets/punk1.png" },
-  { title: "Punk", img: "assets/punk2.png" },
-  { title: "Poster", img: "assets/poster.jpg" },
+  { title: "Vet Pet Record", img: "assets/vet-record.jpg", tool: "photoshop" },
+  { title: "Business Card", img: "assets/vet-card.jpg", tool: "photoshop" },
+  { title: "Book Cover", img: "assets/book.png", tool: "photoshop" },
+  { title: "Digital Typography", img: "assets/digitaltypography1.png", tool: "photoshop" },
+  { title: "Digital Typography", img: "assets/digitaltypography2.jpg", tool: "photoshop" },
+  { title: "Punk", img: "assets/punk1.png", tool: "photoshop" },
+  { title: "Punk", img: "assets/punk2.png", tool: "photoshop" },
+  { title: "Poster", img: "assets/poster.jpg", tool: "photoshop" },
+  { title: "Infographic", img: "assets/infographic.png", tool: "canva" },
 ];
 
 const uiProjects = [
@@ -671,7 +671,7 @@ export default function Projects({ theme, openLightbox }) {
                   </div>
                   <div className="p-[22px]">
                     <span className="text-[0.7rem] text-[#6abf69] font-extrabold tracking-[1.2px] block mb-2 uppercase">
-                      GRAPHICS // ADOBE PS
+                      GRAPHICS // {p.tool === "canva" ? "CANVA" : "ADOBE PS"}
                     </span>
                     <h3 className={`text-[1.3rem] mb-2 ${textDark}`}>
                       {p.title}
@@ -679,7 +679,7 @@ export default function Projects({ theme, openLightbox }) {
                     <span
                       className={`text-[13px] font-semibold flex items-center gap-[5px] ${textGray}`}
                     >
-                      <i className="fa-solid fa-paintbrush"></i> Photoshop
+                      <i className="fa-solid fa-paintbrush"></i> {p.tool === "canva" ? "Canva" : "Photoshop"}
                     </span>
                   </div>
                 </div>
