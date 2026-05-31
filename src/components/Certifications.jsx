@@ -1,17 +1,17 @@
 const certs = [
   {
     img: "/assets/python-cert.jpg", alt: "Python Essentials",
-    title: "Python Essentials 1", issuer: "Cisco Networking Academy",
+    title: "Python Essentials 1", issuer: "Cisco Networking Academy | Feb 2026",
     desc: "Learned Python fundamentals, algorithmic thinking, and debugging best practices.",
   },
   {
     img: "/assets/dataanalytics-cert.jpg", alt: "Data Analytics",
-    title: "Data Analytics Essentials", issuer: "Cisco Networking Academy",
+    title: "Data Analytics Essentials", issuer: "Cisco Networking Academy | Feb 2026",
     desc: "Gained hands-on experience in the data analytics process, including data transformation, organization, and visualization using Excel, SQL, and Tableau.",
   },
   {
     img: "/assets/datascience-cert.jpg", alt: "Data Science",
-    title: "Intro to Data Science", issuer: "Cisco Networking Academy",
+    title: "Intro to Data Science", issuer: "Cisco Networking Academy | Jan 2026",
     desc: "Learned the fundamentals of data collection, cleaning, exploratory analysis, and interpretation.",
   },
   {
