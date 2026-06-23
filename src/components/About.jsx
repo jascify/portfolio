@@ -2,7 +2,7 @@ const education = [
   {
     years: "2023 – Present",
     school: "Pamantasan ng Lungsod ng Valenzuela | BSIT",
-    honors: ["Full CHED Merit Scholarship (CMSP) Grantee"],
+    honors: ["Full CHED Merit Scholarship Program (CMSP) Grantee"],
   },
   {
     years: "2021 – 2023",

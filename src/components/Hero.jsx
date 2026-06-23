@@ -85,10 +85,10 @@ export default function Hero({ theme }) {
               style={{ background: "linear-gradient(135deg, #4caf50, #388e3c)", boxShadow: "0 4px 20px rgba(76,175,80,0.25)" }}>
               View Projects
             </a>
-            <a href="/Jasmine_Aguilar_Resume.pdf" download
+            <a href="#contact"
               className={`px-4 md:px-7 py-2 md:py-[13px] text-[0.8rem] md:text-[0.95rem] font-medium rounded-[12px] border transition-all hover:-translate-y-0.5 flex-1 text-center
                 text-[#6abf69] bg-transparent border-[rgba(76,175,80,0.22)] hover:bg-[rgba(76,175,80,0.1)] hover:border-[#6abf69]`}>
-              Download Resume
+              Contact Me
             </a>
           </div>
         </div>
