@@ -59,9 +59,9 @@ export default function Hero({ theme }) {
                   </p>
                 </div>
                 <div>
-                  <label className="text-[0.65rem] text-[#6abf69] uppercase tracking-[1.5px] font-bold block mb-1">Availability</label>
+                  <label className="text-[0.65rem] text-[#6abf69] uppercase tracking-[1.5px] font-bold block mb-1">Status</label>
                   <p className="text-[0.75rem] md:text-[0.9rem] font-medium flex items-center gap-[6px] text-[#6abf69]">
-                    <i className="fa-solid fa-briefcase text-[0.8rem]"></i> Open for Internship
+                    <i className="fa-solid fa-briefcase text-[0.8rem]"></i> Open to Opportunities
                   </p>
                 </div>
               </div>
@@ -70,8 +70,8 @@ export default function Hero({ theme }) {
               <div>
                 <label className="text-[0.65rem] text-[#6abf69] uppercase tracking-[1.5px] font-bold block mb-1">Profile Summary</label>
                 <p className={`text-[0.9rem] leading-[1.6] ${textGray}`}>
-                  An IT student pursuing an internship opportunity to apply skills in front-end and back-end development,
-                  data analysis, quality assurance, and system analysis within the SDLC.
+                  An IT student focused on front-end and back-end development, data analysis, quality assurance, and
+                  system analysis within the SDLC.
                 </p>
               </div>
             </div>

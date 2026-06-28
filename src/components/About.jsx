@@ -49,7 +49,7 @@ export default function About({ theme }) {
             </p>
             <p className={`text-[1.05rem] leading-[1.8] ${textGray}`}>
               I've built a strong foundation in the full SDLC—from system analysis to rigorous QA testing.
-              I enjoy bridging the gap between technical logic and clean, user-centric design.
+              I continue to strengthen that foundation by working on projects that improve both technical logic and clean, user-centric design.
             </p>
           </div>
         </div>

@@ -82,7 +82,7 @@ export default function Contact({ theme }) {
         <div className="mb-[36px]">
           <p className="text-[#6abf69] uppercase tracking-[2px] font-bold text-[0.85rem] mb-2">Get in Touch</p>
           <h2 className={`text-[2.4rem] font-bold mb-2 ${textDark}`}>Let's Connect</h2>
-          <p className={`text-[1rem] ${textGray}`}>Open for internships and collaborations — reach out anytime.</p>
+          <p className={`text-[1rem] ${textGray}`}>Open for collaborations, projects, and future opportunities — reach out anytime.</p>
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
